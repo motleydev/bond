@@ -10,8 +10,7 @@ module.exports = function(grunt) {
 				},
 				files: [
 					{
-						'app/index.html': 'src/index.jade',
-						'src/assets/Info.plist': 'src/assets/Info.jade'
+						'app/index.html': 'src/index.jade'
 					},
 					{
 						expand: true,
